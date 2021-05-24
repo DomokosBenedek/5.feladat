@@ -1,0 +1,115 @@
+body {
+	font-size: 11pt;
+    background-image: url("1_Dobokocka/bg.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00008b;
+	margin: 0px;
+	padding: 0px;
+    text-align: left;    
+}
+
+p{
+    color: #00008b;
+}
+
+p.bev{
+    color: #00008b;
+    size: small;
+    font-style: italic;
+}
+
+
+hr {
+	width: 80%;
+}
+
+h1, h2 {
+    color: #dc143c;
+	padding: 5px;
+}
+
+h2 {
+    color: #dc143c;
+    size: 17px;
+}
+
+
+.kep {
+	width: 240px;
+    border: none;
+    margin-left: 30px;
+}
+
+a:link {
+	color: #dc143c;
+    text-align: left;
+}
+
+a{
+    text-align: left;
+    color: #dc143c;
+}
+
+.container{
+    border: none;
+    margin: auto;
+    width: 930px;
+    height: auto;
+    grid-template-columns: 310px 310px 310px;
+    display: grid;
+    background-color: #f0f8ff;
+    padding: 5px;
+    text-align: left;
+}
+
+#tartalom{
+    color: #00008b;
+    padding: 5px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    border: none;
+}
+
+#oszlop1{
+    border: none;
+    padding: 5px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    float: left;
+    padding: 0px;
+    color: #00008b;
+    border: none;
+  }
+
+  #oszlop2{
+    border: none;
+    padding: 5px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    float: left;
+    padding: 0px;
+    color: #00008b;
+    border: none;
+}
+
+#oszlop3{
+    border: none;
+    padding: 5px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    float: left;
+    padding: 0px;
+    color: #00008b;
+    border: none;
+}
+
+#lablec{
+    clear: both;
+    padding: 5px;
+    color: #00008b;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    border: none;
+}
